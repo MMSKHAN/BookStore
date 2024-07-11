@@ -1,0 +1,77 @@
+.BdageHeaderChild2{
+    position: relative;
+    right: 45px;
+}.BdageHeaderChild3{
+    
+    position: relative;
+    right: 75px;
+
+}.BdageHeaderChild5{
+    position: relative;
+    right: 64px;
+}
+.BdageHeaderChild4{
+    position: relative;
+    right: 18px;
+}.BdageChild5{
+    position: relative;
+    right: 33px;
+}.BdageChild6{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;   
+    background: linear-gradient(158.83deg, #02C4CD 16.6%, #02C1CD 41.14%, #3B66E9 60.82%, #7928E9 76.24%);
+    border-radius: 8px;
+}.plus2{
+    font-size: 1rem;
+}
+.BdageHeaderChild6{
+    position: relative;
+    right: 49px;
+}
+@media screen and (max-width:1200px){
+    .UserHeader{
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+    }
+    .BdageHeaderChild2{
+        position: relative;
+        right:3.4rem;
+    }.BdageHeaderChild4{
+        right: 0rem;
+    }
+    .BdageHeaderChild3{
+        
+        position: relative;
+        right: 4rem;
+    
+    }.BdageHeaderChild5{
+        position: relative;
+        left: -2.9rem;
+    }.BdageHeaderChild6{
+        position: relative;
+        right: 3rem;
+    }.UserChild22{
+        /* padding-left: 36px; */
+    }.pusbtn{
+        width: 67px;
+    }.Badage{
+        width: 1200px ;
+    }
+    
+}

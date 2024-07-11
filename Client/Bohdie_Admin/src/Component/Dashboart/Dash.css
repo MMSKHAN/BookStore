@@ -1,0 +1,210 @@
+.Dashboardmain{
+    position: relative;
+    left: 18rem;
+    width: 77%;
+    padding-top: 2rem;
+}
+.Dash_Header{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+
+font-family: 'Poppins', sans-serif;
+color: #000000;
+}.rowdash{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Dash_Hader_Add{
+    background: linear-gradient(158.83deg, #02C4CD 16.6%, #02C1CD 41.14%, #3B66E9 60.82%, #7928E9 76.24%);
+border-radius: 8px;
+cursor: pointer;
+width: fit-content;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+color: white;
+float: right;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}.gaps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    background: #FFFFFF;
+border: 1px solid #EFEFEF;
+/* 3 */
+
+box-shadow: 0px 14px 54px rgba(0, 0, 0, 0.03);
+border-radius: 12px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 42px;
+/* identical to box height */
+
+text-align: center;
+
+color: #333333;
+}.DashBoard{
+    width: inherit;
+}.DashBoard img{
+    width: 100%;
+}.dashimgs{
+font-size: 3rem;
+background: linear-gradient(158.83deg, #02C4CD 16.6%, #02C1CD 41.14%, #3B66E9 60.82%, #7928E9 76.24%);
+
+
+}
+.boxhead{
+    background: #EDEDED;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1rem;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+
+}.boxbody{
+    display: flex;
+    flex-direction: column;
+    background: #EDEDED;
+border-radius: 0px 0px 10px 10px;
+padding: 1rem;
+}.manufac{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+
+}.manufac2{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}.Dash_Butttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}.Dash_button1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+padding-left:1rem ;
+padding-right:1rem ;
+padding-top:0.5rem ;
+padding-bottom:0.5rem ;
+    box-sizing: border-box;
+background: linear-gradient(158.83deg, #09F4FF 16.6%, #0EB0BA 41.14%, #4A6FE0 60.82%, #7B23F5 76.24%);
+border-radius: 8px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 0.5rem;
+}.Dash_button2{
+    
+background: #EDEDED;
+border-radius: 0px 0px 10px 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+background: linear-gradient(158.83deg, #09F4FF 16.6%, #0EB0BA 41.14%, #4A6FE0 60.82%, #7B23F5 76.24%);
+border: 1px solid;
+
+border-image-source: linear-gradient(158.83deg, #02C4CD 16.6%, #02C1CD 41.14%, #3B66E9 60.82%, #7928E9 76.24%);
+
+
+color: #000000;
+border-radius: 8px;
+padding-left:2rem ;
+padding-right:2rem ;
+padding-top:0.5rem ;
+padding-bottom:0.5rem ;
+cursor: pointer;
+display: flex;
+flex-direction: row;
+gap: 0.5rem;
+
+}.plus{
+    font-size: 1.5rem;
+}
+ @media screen and (max-width:1200px) {
+    .Dashboardmain{
+        position: static;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .Dash_Header{
+        font-size: 15px;
+    }.Dash_Hader_Add{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        font-size: 8px;
+    }.rowdash{
+        gap: 1rem;
+    }.DashBoard{
+        width: 50%;
+    }.dashimgs{
+        font-size: 100px;
+    }.gaps{
+        gap: 3rem;
+        margin-top: 0.5rem;
+    }.boxhead{
+        margin-top: 0.5rem;
+    }
+
+}

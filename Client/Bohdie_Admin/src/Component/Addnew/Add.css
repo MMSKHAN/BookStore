@@ -1,0 +1,153 @@
+.Add{
+    position: relative;
+    left: 18rem;
+    width: 77%;
+    padding-top: 2rem;
+}.adminimged{
+    height: 10vh;
+    border-radius: 50%;
+    width: 5vw;
+}.adminimged img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}.AddHeaderRow{
+width: 80%;
+display: flex;
+align-items: center;
+padding-left: 2rem;
+background: #EDEDED;
+border-radius: 20px;
+height: 10vh;
+}.AddHeader{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}.Pic_video{
+    width: 80%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #292D32;
+}.Add_Video{
+    position: relative;
+    left: 136px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+}.Add_Pic{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+.icon_size{
+    font-size: 1.5rem;
+}.FeedName{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-left:3.5rem ;
+    align-items: center;
+    margin-top: 1.5rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}.Globe{
+    padding-left: 9.5rem;
+display: flex;
+gap: 1.5rem;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+
+}.globe_Size{
+    font-size: 1.5rem;
+}.feedimge{
+    width: 95%;
+    height: 60vh;
+padding-left: 9rem;
+overflow: hidden;
+margin-top: 1.5rem;
+}.feedimge img{
+    width:100%;
+    height: 100%;
+}.small{
+    padding-left: 9px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #292D32;
+position: relative;
+padding-left: 133px;
+margin-top: 1rem;
+}.Feed_Footer{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+align-items: center;
+
+padding-left: 130px;
+
+}.Hand_Chat_icons{
+    font-size: 1.5rem;
+} @media screen and (max-width:1200px) {
+    .Add{
+        position: static;
+    
+    width: 100%;
+    padding-top: 2rem;
+    }.adminimged{
+        width: 100px;
+        height: 80px;
+    }.AddHeaderRow{
+        height: 50px;
+         }.AddHeader{
+            gap: 1rem;
+         }.Pic_video{
+            width: 100%;
+            padding-left: 1rem;
+            padding-right: 1rem;
+         }.Add_Video{
+            position: static;
+         }.feedimge{
+            padding-left: 1rem;
+            width: 100%;
+            height: 90%;
+         }.small{
+            padding-left: 1rem;
+         }.Feed_Footer{
+            padding-left: 1rem;
+            justify-content: space-between;
+         }
+}

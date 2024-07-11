@@ -1,0 +1,20 @@
+@media screen and (max-width:1200px){
+    .challangeHeader{
+        width: 1200px;
+    }.ChallangeChild2{
+        position: relative;
+        right: 3rem;
+    }
+    .ChallangeChild3{
+        position: relative;
+        right: 4rem;
+    }.ChallangeChild4{
+        position: relative;
+        right: 0rem;
+    }.ChallangeChild5{
+        position: relative;
+        right:  3rem;
+    }.ChallangeChild6{
+        position: relative;
+    right: 2rem;} 
+}
